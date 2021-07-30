@@ -974,6 +974,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@brainhubeu/react-carousel@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@brainhubeu/react-carousel/-/react-carousel-2.0.3.tgz#639da2bbb20bb988aab2156d3cfa744f05e145f3"
+  integrity sha512-wwcAdWx5K6pPpVC4oZmXZeazCxFItfyizQoG1DI1QjlC2ragMEhexFSNGjB61q0foqCM3Vxim+mKHdbbmw52AQ==
+
 "@emotion/is-prop-valid@^0.8.2":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
@@ -1118,6 +1123,13 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
+"@types/brainhubeu__react-carousel@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/brainhubeu__react-carousel/-/brainhubeu__react-carousel-2.0.2.tgz#f238255f3fecbab98d8a413303b4fa52aa924624"
+  integrity sha512-qmOfB2AcENaQWGI0SNgte8+4+sHMFtfaBpU0ks+YpbCIkKw0zow0pTLPVoFYvskPI7ieM+bYtO22XpkXUS7oUg==
+  dependencies:
+    "@types/react" "*"
+
 "@types/hast@^2.0.0":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@types/hast/-/hast-2.3.1.tgz#b16872f2a6144c7025f296fb9636a667ebb79cd9"
@@ -1151,6 +1163,15 @@
   version "15.7.3"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+
+"@types/react@*":
+  version "17.0.4"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.4.tgz#a67c6f7a460d2660e950d9ccc1c2f18525c28220"
+  integrity sha512-onz2BqScSFMoTRdJUZUDD/7xrusM8hBA2Fktk2qgaTYPCgPvWnDEgkrOs8hhPUf2jfcIXkJ5yK6VfYormJS3Jw==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
 
 "@types/react@^17.0.3":
   version "17.0.3"

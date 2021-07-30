@@ -1,4 +1,5 @@
 import AnimatedLogo from "@/components/AnimatedLogo";
+import Carousel from "@/components/Carousel";
 import SocialButtons from "@/components/socialButtons";
 import SponsorsComponent from "@/components/Sponsors";
 import UpcomingComponent from "@/components/UpcomingEvents";
@@ -27,6 +28,7 @@ export default function Home() {
       <div>
         <UpcomingComponent />
       </div>
+      <Carousel />
       <hr className="divider" />
       <div className="columns">
         <div className="column is-6">
